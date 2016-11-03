@@ -1,0 +1,5 @@
+---
+BUNDLE_FROZEN: '1'
+BUNDLE_PATH: "/home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle"
+BUNDLE_WITHOUT: development:test
+BUNDLE_DISABLE_SHARED_GEMS: '1'

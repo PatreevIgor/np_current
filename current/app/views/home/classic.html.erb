@@ -1,0 +1,15 @@
+<div class="content-main">
+<br>
+<h2 class="land-h">Каталог подарков: <div class="all-href"><a href="/all" title="Новогодние подарки для детей">Все подарки »</a></div></h2>
+<ul class="podarki">
+<% @products.each do |product| %>
+<li>
+        <div class="img"><a href=""><%= image_tag product.image, :width => 200, :height => 200 %></a></div>
+        <h4><a href=""><%= product.title %></a></h4>
+        
+        <div class="cost"><%= product.price %> руб.</div>
+        <div class="buy">
+          <%= link_to image_tag('full.gif'), product %>
+        </div>
+        </li>
+<% end %>

@@ -1,0 +1,33 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Candies Products</h1>
+
+<table>
+  <thead>
+    <tr>
+          <th>ID</th>
+      <th>Product</th>
+      <th>Candy</th>
+      <th>Count</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @candies_products.each do |candies_product| %>
+      <tr>
+              <td><%= candies_product.id %></td>
+        <td><%= candies_product.product_id %></td>
+        <td><%= candies_product.candy_id %></td>
+        <td><%= candies_product.count %></td>
+        <td><%= link_to 'Show', candies_product %></td>
+        <td><%= link_to 'Edit', edit_candies_product_path(candies_product) %></td>
+        <td><%= link_to 'Destroy', candies_product, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Candies product', new_candies_product_path %>

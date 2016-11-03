@@ -1,0 +1,35 @@
+<%= form_for(@packing) do |f| %>
+  <% if @packing.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@packing.errors.count, "error") %> prohibited this packing from being saved:</h2>
+
+      <ul>
+      <% @packing.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+    <div class="field">
+    <%= f.file_field :image %>
+  </div>
+  
+  <div class="field">
+    <%= f.label :title %><br>
+    <%= f.text_field :title %>
+  </div>
+  <div class="field">
+    <%= f.label :description %><br>
+    <%= f.text_area :description %>
+  </div>
+
+  <div class="field">
+    <%= f.label :price %><br>
+    <%= f.number_field :price %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

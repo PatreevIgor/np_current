@@ -1,0 +1,19 @@
+I, [2016-09-28T13:35:59.053516 #14405]  INFO -- : Refreshing Gem list
+I, [2016-09-28T13:36:09.602529 #14405]  INFO -- : unlinking existing socket=/var/sockets/hosting_patreewigor4/novogodniepodarki.patreewigor4.sock
+I, [2016-09-28T13:36:09.610031 #14405]  INFO -- : listening on addr=/var/sockets/hosting_patreewigor4/novogodniepodarki.patreewigor4.sock fd=13
+I, [2016-09-28T13:36:09.612781 #14405]  INFO -- : master process ready
+I, [2016-09-28T13:36:09.700476 #14790]  INFO -- : worker=0 ready
+I, [2016-10-21T16:23:52.053598 #14405]  INFO -- : reaped #<Process::Status: pid 14790 exit 0> worker=0
+I, [2016-10-21T16:23:57.255629 #14405]  INFO -- : master complete
+I, [2016-10-21T17:28:31.995961 #25922]  INFO -- : Refreshing Gem list
+I, [2016-10-21T17:28:40.842306 #25922]  INFO -- : unlinking existing socket=/var/sockets/hosting_patreewigor4/novogodniepodarki.patreewigor4.sock
+I, [2016-10-21T17:28:40.842505 #25922]  INFO -- : listening on addr=/var/sockets/hosting_patreewigor4/novogodniepodarki.patreewigor4.sock fd=13
+I, [2016-10-21T17:28:40.844657 #25922]  INFO -- : master process ready
+I, [2016-10-21T17:28:40.913364 #25958]  INFO -- : worker=0 ready
+I, [2016-11-03T20:03:38.300729 #25922]  INFO -- : reaped #<Process::Status: pid 25958 exit 0> worker=0
+I, [2016-11-03T20:03:38.313137 #25922]  INFO -- : master complete
+I, [2016-11-03T20:03:40.050717 #11225]  INFO -- : Refreshing Gem list
+I, [2016-11-03T20:03:49.620348 #11225]  INFO -- : unlinking existing socket=/var/sockets/hosting_patreewigor4/novogodniepodarki.patreewigor4.sock
+I, [2016-11-03T20:03:49.650691 #11225]  INFO -- : listening on addr=/var/sockets/hosting_patreewigor4/novogodniepodarki.patreewigor4.sock fd=13
+I, [2016-11-03T20:03:49.653111 #11225]  INFO -- : master process ready
+I, [2016-11-03T20:03:49.719777 #11263]  INFO -- : worker=0 ready

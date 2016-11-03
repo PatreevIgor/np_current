@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+<strong>Image:</strong>
+    <%= image_tag @packing.image, :width => 350 %>
+
+</p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @packing.title %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @packing.description %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @packing.price %>
+</p>
+
+<%= link_to 'Edit', edit_packing_path(@packing) %> |
+<%= link_to 'Back', packings_path %>
